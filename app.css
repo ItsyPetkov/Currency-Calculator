@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    margin: 0;
+}
+
+#choiceHome{
+    position: relative;
+    font-size: 15px;
+    top: 20px;
+    left: 10px;
+    color: white;
+}
+
+#choiceForeign{
+    position: relative;
+    font-size: 15px;
+    color: white;
+    top: 20px;
+    left: 10px;
+}
+
+#bankFee{
+    position: relative;
+    font-size: 15px;
+    left: 30px;
+    top: 20px;
+    color: white;
+}
+
+#sidebarButton{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+#spanID{
+    position: relative;
+    top: 60px;
+}
+
+#filler{
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.closebtn{
+    position: absolute;
+    left: 105px;
+    top: -5px;
+    text-decoration: none;
+    color: black;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+}
+
+#choice1, #choice2, #choice3{
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    left: 25px;
+    border-bottom: 3px solid dimgray;
+}
+
+#numPad{
+    position: relative;
+    top: -20px;
+}
+
+#seven, #four, #one, #c{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+#eight, #five, #two, #zero{
+    margin-right: 10px;
+}
+
+#seven, #eight, #nine{
+    margin-bottom: 20px;
+}
+
+#four, #five, #six{
+    margin-bottom: 20px;
+}
+
+#one, #two, #three{
+    margin-bottom: 20px;
+}
+
+#c, #one, #zero, #equality, #two, #three, #four, #five, #six, #seven, #eight, #nine{
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    background-color: royalblue;
+    color: white;
+}
+
+#value{
+    background-color: cornflowerblue;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    position: relative;
+    top: -50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+#currency{
+    background-color: cornflowerblue;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: dimgray;
+    position: relative;
+    top: -50px;
+    border-bottom: 3px solid dimgray;
+}
+
+#sidebarButton{
+    position: relative;
+    top: -105px;
+    left: 10px;
+}
+
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden;
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
